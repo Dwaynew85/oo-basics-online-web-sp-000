@@ -1,14 +1,14 @@
-class Shoe 
-  attr_accessor :brand, :color, :size, :material, :condition 
+class Shoe
+  attr_accessor :brand, :color, :size, :material, :condition
 
   def initialize(brand)
-    @brand = brand 
+    @brand = brand
   end
 
   def cobble
     puts "The show has been repaired."
-    @condition = New 
-  end 
+    @condition = New
+  end
 
 end
   
